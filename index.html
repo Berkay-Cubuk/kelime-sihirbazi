@@ -1,0 +1,30 @@
+<!-- Yazdığımız kodun HTML5 olduğunu belirttik -->
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Türkçe karakter kullanmamızı sağladık -->
+    <meta charset="UTF-8">
+    <!-- Mobil uyumluluk -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Sayfa başlığı -->
+    <title>Kelime Sihirbazı</title>
+    <!-- Css Kodumuz -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Başlık -->
+        <h2>Kelime Sihirbazı</h2>
+        <!-- İsim -->
+        <textarea id="isim" placeholder="İsim"></textarea><br>
+        <!-- Soyisim -->
+        <textarea id="soyisim" placeholder="Soyisim"></textarea>
+        <!-- Buton -->
+        <button onclick="goster();">Göster</button>
+        <!-- Sonuç -->
+        <p id="sonuc"></p>
+    </div>
+    <!-- Javascript kodumuz -->
+    <script src="script.js"></script>
+</body>
+</html>
